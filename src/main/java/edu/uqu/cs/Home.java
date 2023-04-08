@@ -34,7 +34,7 @@ public class Home{
                 
                 // List all the cars in the garage. Hint: use method listCars () of class Garage
                                //HERE
-                               car.listCars();
+                              car.listCars();
 		
         }
 
