@@ -13,28 +13,28 @@ public class Home{
 	public static void main(String [] args){
           // Create an object of type Garage 
                 //HERE
-                Garage car=new Garage();
+                Garage cars=new Garage();
 
                 // Add "Toyota Corolla Cross" in the garage. Hint: use method addCar () of class Garage
                                 //HERE
-                car.addCar("Toyota Corolla Cross");
+                cars.addCar("Toyota Corolla Cross");
                 //List all the cars in the garage. Hint: use method listCars () of class Garage
                                 //HERE
-                car.listCars();
+                cars.listCars();
                 // Place "Ford Fusion" in the garage. Hint: use method addCar () of class Garage
                                 //HERE
-                car.addCar("Ford Fusion");
+                cars.addCar("Ford Fusion");
                  // List all the cars in the garage once again. Hint: use method listCars () of class Garage
                                 //HERE
-                car.listCars();
+                cars.listCars();
                 
                 // Move out "Ford Fusion" from the garage. Hint: use method moveOut () of class Garage
                                //HERE
-                car.moveOut("Ford Fusion");
+                cars.moveOut("Ford Fusion");
                 
                 // List all the cars in the garage. Hint: use method listCars () of class Garage
                                //HERE
-                              car.listCars();
+                              cars.listCars();
 		
         }
 
