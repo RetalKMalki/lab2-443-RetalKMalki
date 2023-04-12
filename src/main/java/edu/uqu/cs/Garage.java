@@ -139,7 +139,7 @@ public void moveIn (String model){
  */
 
 public void listCars(){
-System.out.println("All cars in the Garage are : ");
+System.out.println("All cars in the Garage are: ");
 for (int i=0;i<countCars;i++){
     if(cars[i].getinOutGarage())
          System.out.println("car "+(i+1)+": "+cars[i].getmodel());
