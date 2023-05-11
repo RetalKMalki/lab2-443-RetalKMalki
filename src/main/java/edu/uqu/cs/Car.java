@@ -79,6 +79,7 @@ public class Car{
    public void moveCarOut(){
        inOutGarage=false;
    }
+   
    public void moveCarIn(){
        inOutGarage=true;
    }
